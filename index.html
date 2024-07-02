@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping cart</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h2 class="page-title">Shopping Cart</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">List Products</h3>
+          </div>
+          <div class="panel-body" id="list-product">
+            <!-- LIST PRODUCT -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h3 class="panel-title">Your Cart</h3>
+          </div>
+          <div class="panel-body">
+
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th width="4%">#</th>
+                  <th>Pokemon</th>
+                  <th width="15%">Price</th>
+                  <th width="4%">Quantity</th>
+                  <th width="20%">Subtotal</th>
+                  <th width="25%">Action</th>
+                </tr>
+              </thead>
+              <tbody id="my-cart-body">
+                <!-- CART BODY -->
+              </tbody>
+              <tfoot id="my-cart-footer">
+                <!-- CART FOOTER -->
+              </tfoot>
+            </table>
+
+          </div>
+        </div>
+        <div class="alert alert-success" role="alert" id="mnotification">Updated <b>ivysaur</b></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquerry/jquery.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+
+  <script src="js/system.js"></script>
+  <script type="module">
+    System.defaultJSExtensions = true;
+    System.import("./mjs/shopping.js");
+  </script>
+
+</body>
+
+</html>

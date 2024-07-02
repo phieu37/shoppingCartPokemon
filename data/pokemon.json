@@ -1,0 +1,50 @@
+[
+  {
+    "_id" : 100,
+    "_name" : "bulbasaur",
+    "_image" : "bulbasaur.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 69,
+    "_canBuy" : true
+  },
+  {
+    "_id" : 101,
+    "_name" : "charmander",
+    "_image" : "charmander.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 18,
+    "_canBuy" : true
+  },
+  {
+    "_id" : 102,
+    "_name" : "ivysaur",
+    "_image" : "ivysaur.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 22,
+    "_canBuy" : true
+  },
+  {
+    "_id" : 103,
+    "_name" : "squirtle",
+    "_image" : "squirtle.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 65,
+    "_canBuy" : true
+  },
+  {
+    "_id" : 104,
+    "_name" : "venusaur",
+    "_image" : "venusaur.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 19,
+    "_canBuy" : false
+  },
+  {
+    "_id" : 105,
+    "_name" : "pikachu",
+    "_image" : "pikachu.png",
+    "_sumary" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, velit.",
+    "_price" : 19,
+    "_canBuy" : true
+  }
+]
